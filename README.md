@@ -97,12 +97,4 @@ The following elements are present in my scene:
 - **Birds:** body, wings, beak, eyes.  
 - **Butterflies:** left & right wings, body, antennae.
 
----
-
-## ✅ Deliverables Submitted
-- ✅ Screenshot of webpage with SVG + CSS (`screenshots/svg-css.png`)  
-- ✅ Screenshot of JS alert box (`screenshots/js-alert.png`)  
-- ✅ Screenshot of D3.js scene (`screenshots/d3-scene.png`)  
-- ✅ CodePen link: [https://codepen.io/Rajanshah1/pen/OPMJXOb](https://codepen.io/Rajanshah1/pen/OPMJXOb)  
-- ✅ Live GitHub Pages demo: [https://rajanshah1.github.io/csce5320-ice4-web-technologies/](https://rajanshah1.github.io/csce5320-ice4-web-technologies/)  
-- ✅ README.md file (this document)  
+--- 
