@@ -99,17 +99,6 @@ The following elements are present in my scene:
 
 ---
 
-## 📖 Reflection
-Through this assignment, I learned:
-- How to **embed SVGs** in HTML and style them with CSS.  
-- Basics of **JavaScript integration** and event handling in webpages.  
-- How to create **shapes with D3.js** and group/transform elements.  
-- Positioning strategies (e.g., aligning the tree trunk with the ground, centering the flower between objects).  
-- Sharing and testing interactive graphics in **CodePen**.  
-- How to **deploy static web projects with GitHub Pages**.  
-
----
-
 ## ✅ Deliverables Submitted
 - ✅ Screenshot of webpage with SVG + CSS (`screenshots/svg-css.png`)  
 - ✅ Screenshot of JS alert box (`screenshots/js-alert.png`)  
