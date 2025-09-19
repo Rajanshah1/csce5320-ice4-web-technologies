@@ -34,30 +34,57 @@ It is divided into three main parts:
 ---
 
 ## 📂 Project Structure
-CE-4/
-│── index.html # Main webpage (SVG + CSS + JS embedded)
-│── style.css # Custom stylesheet
+
+```
+ICE-4/
+│── index.html         # Main webpage (SVG + CSS + JS embedded)
+│── style.css          # Custom stylesheet
 │── js/
-│ └── example.js # JavaScript alert with my name
+│   └── example.js     # JavaScript alert with my name
 │── assets/
-│ └── myArt.svg # Figma-created SVG
+│   └── myArt.svg      # Figma-created SVG
 │── screenshots/
-│ ├── svg-css.png # Screenshot of webpage with SVG + CSS
-│ ├── js-alert.png # Screenshot of JavaScript alert
-│ └── d3-scene.png # Screenshot of D3.js scene from CodePen
-│── README.md # Documentation (this file)
-
-
-
+│   ├── svg-css.png    # Screenshot of webpage with SVG + CSS
+│   ├── js-alert.png   # Screenshot of JavaScript alert
+│   └── d3-scene.png   # Screenshot of D3.js scene from CodePen
+│── README.md          # Documentation (this file)
+```
 
 ---
 
-## ▶️ How to Run
-1. Open `index.html` in a browser → webpage loads with SVG + CSS.  
-2. JS alert (from `js/example.js`) will appear with my name.  
-3. Visit CodePen link below to view the **D3.js scene**.  
+## ▶️ How to Run Locally
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/Rajanshah1/csce5320-ice4-web-technologies.git
+   cd csce5320-ice4-web-technologies
+   ```
+2. Open `index.html` in a browser → webpage loads with SVG + CSS.  
+3. JS alert (from `js/example.js`) will appear with my name.  
+4. Visit CodePen link below to view the **D3.js scene**.  
 
-🔗 **CodePen Project Link:** [INSERT YOUR CODEPEN LINK HERE]
+🔗 **CodePen Project Link:** [https://codepen.io/Rajanshah1/pen/OPMJXOb](https://codepen.io/Rajanshah1/pen/OPMJXOb)
+
+---
+
+## 🌍 Deployment (GitHub Pages)
+
+This project is also deployed via **GitHub Pages** for quick access:
+
+🔗 **Live Demo:** [https://rajanshah1.github.io/csce5320-ice4-web-technologies/](https://rajanshah1.github.io/csce5320-ice4-web-technologies/)
+
+### How it was deployed:
+1. Open repo → **Settings → Pages**.  
+2. Under *Source*, choose **Deploy from a branch**.  
+3. Select **Branch: main**, **Folder: /** (root).  
+4. Save.  
+5. GitHub Actions automatically runs **Pages build and deployment**.  
+6. If nothing runs, trigger redeploy:
+   ```bash
+   echo "<!-- redeploy -->" >> index.html
+   git add index.html
+   git commit -m "Trigger Pages redeploy"
+   git push
+   ```
 
 ---
 
@@ -79,11 +106,14 @@ Through this assignment, I learned:
 - How to create **shapes with D3.js** and group/transform elements.  
 - Positioning strategies (e.g., aligning the tree trunk with the ground, centering the flower between objects).  
 - Sharing and testing interactive graphics in **CodePen**.  
+- How to **deploy static web projects with GitHub Pages**.  
 
 ---
 
 ## ✅ Deliverables Submitted
-- Screenshot of webpage with SVG + CSS.  
-- Screenshot of JS alert box.  
-- Screenshot of D3.js scene + CodePen link.  
-- README.md file (this document).  
+- ✅ Screenshot of webpage with SVG + CSS (`screenshots/svg-css.png`)  
+- ✅ Screenshot of JS alert box (`screenshots/js-alert.png`)  
+- ✅ Screenshot of D3.js scene (`screenshots/d3-scene.png`)  
+- ✅ CodePen link: [https://codepen.io/Rajanshah1/pen/OPMJXOb](https://codepen.io/Rajanshah1/pen/OPMJXOb)  
+- ✅ Live GitHub Pages demo: [https://rajanshah1.github.io/csce5320-ice4-web-technologies/](https://rajanshah1.github.io/csce5320-ice4-web-technologies/)  
+- ✅ README.md file (this document)  
